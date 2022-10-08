@@ -14,8 +14,8 @@ const Right = () => {
                             <img src={student} />
                         </div>
                         <div className="col-md-8 pt-3 right-info">
-                            <h5>Michael Jeffery Jordan</h5>
-                            <h6>BSc. Mathematical Dynamics</h6>
+                            <h5>Prashant Yadav</h5>
+                            <h6> Information Science and Eng.</h6>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Right = () => {
                 <div className="messages">
                     <div className="row">
                         <div className="col-md-8">
-                            <h6>Messages</h6>
+                            <h6>Recents</h6>
                         </div>
                         <div className="col-md-4">
                             <h6 className="text-primary" style={{ textAlign: "right", fontSize: "12px" }}>Read All</h6>
@@ -36,8 +36,8 @@ const Right = () => {
                             <img src={male} />
                             </div>
                             <div className="col-md-10">
-                                <h5>Charles Barkley</h5>
-                                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h6>
+                                <h5>Ronit Asawa</h5>
+                                <h6>joind BlueOptima as a backend dev. </h6>
                             </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ const Right = () => {
                             <img src={lady} />
                             </div>
                             <div className="col-md-10">
-                                <h5>Angela Jin</h5>
-                                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h6>
+                                <h5>Ritika Das</h5>
+                                <h6>Completed internship with AT&T. </h6>
                             </div>
                         </div>
                     </div>
@@ -58,14 +58,14 @@ const Right = () => {
                             <img src={male} />
                             </div>
                             <div className="col-md-10">
-                                <h5>Shanon Lewis</h5>
-                                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h6>
+                                <h5>Sapnil</h5>
+                                <h6>Created a project plant identification mobile app. </h6>
                             </div>
                         </div>
                     </div>
                     <div className="container-fluid mt-2">
                         <button className="right-side-btn">
-                           <FaComment /> Start Chat
+                        Read more
                         </button>
                     </div>
                 </div>

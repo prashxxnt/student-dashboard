@@ -12,7 +12,7 @@ class Line extends Component {
             type: "area"
           },
           xaxis: {
-            categories: ['Y1','Y2', 'Y3', 'Y4']
+            categories: ['IA1','IA2', 'IA3']
           }
         },
         fill: {
@@ -26,12 +26,12 @@ class Line extends Component {
           },
         series: [
           {
-            name: "First Class",
-            data: [30, 40, 45, 50]
+            name: "your marks",
+            data: [30, 40, 45]
           },
           {
-            name: "Lower Class",
-            data: [70, 60, 55, 65]
+            name: "Class average",
+            data: [40, 42, 40]
           }
 
         ]
@@ -44,7 +44,7 @@ class Line extends Component {
         
                 <div className="line container-fluid border">
                       <h5>
-              Performance
+              Performance SEM-6
           </h5>
           <Chart options={this.state.options} series={this.state.series} type="area" width="360" />
         

@@ -7,7 +7,7 @@ class Donut extends Component {
   
       this.state = {
         options: {},
-        series: [11, 8],
+        series: [15,6],
         labels: ['Complete', 'Pending'],
         legend: {
             position: 'bottom',
@@ -24,7 +24,7 @@ class Donut extends Component {
                 <div className="donut">
           <Chart options={this.state.options} series={this.state.series} type="donut" width="300" />
           <h5>
-              Assignments <font style={{float:"right"}}> 19</font>
+              Assignments <font style={{float:"right"}}> 21</font>
           </h5>
         </div>
            

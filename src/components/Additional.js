@@ -12,7 +12,7 @@ const Additional = () => {
                     <div className="admission border  p-3 ">
                         <div className="row">
                             <div className="col-md-8 pt-2 pb-2">
-                            <h5 style={{color:"#4f4f50"}}>Admissions Office</h5>
+                            <h5 style={{color:"#4f4f50"}}>Project details</h5>
                             </div>
                             <div className="col-md-4 pt-2 pb-2">
                                 <h6 className="text-primary" style={{textAlign:"right"}}>Read All</h6>
@@ -24,10 +24,10 @@ const Additional = () => {
                             <img src={Admimg} />
                         </div>
                         <div className="col-md-8 adm-item">
-                            <h5 className="">Semester Break</h5>
+                            <h5 className="">Plant identification</h5>
                             <h6>July 25 3:23pm</h6>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing.
+                            Pant identification mobile app using figma,nodejs mongoDB.
                             </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Additional = () => {
                             <h5 style={{color:"#4f4f50"}}>Student Rankings</h5>
                             </div>
                             <div className="col-md-4 pt-2 pb-2">
-                                <h6 className="text-secondary" style={{textAlign:"right"}}>You Rank 25th</h6>
+                                <h6 className="text-secondary" style={{textAlign:"right"}}>You Rank 5th</h6>
                             </div>
                         </div>
                     <table className="table">
@@ -51,7 +51,7 @@ const Additional = () => {
                                 <img src={lady} />
                             </td>
                             <td>
-                                <h5>Brenda Bryant</h5>
+                                <h5>Ritika Das</h5>
                                 <h6 className="text-success">Status: Online</h6>
                             </td>
                             <td>
@@ -68,7 +68,7 @@ const Additional = () => {
                                 <img src={male} />
                             </td>
                             <td>
-                                <h5>Giannis James</h5>
+                                <h5>Sahil Singh</h5>
                                 <h6 className="text-warning">Status: Busy</h6>
                             </td>
                             <td>
